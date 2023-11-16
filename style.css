@@ -1,0 +1,53 @@
+body {
+    font-family: 'Arial', sans-serif; /* Police de caractères */
+    font-size: 16px; /* Taille de la police */
+    line-height: 1.6; /* Hauteur de ligne */
+    color: hsl(0, 0%, 20%); /* Couleur du texte */
+    background-color: #fff; /* Couleur de fond */
+    margin: 0; /* Supprimer les marges par défaut du navigateur */
+    padding: 0; /* Supprimer les rembourrages par défaut du navigateur */
+}
+
+.header{
+    background-image: url(img/BG.png);
+    background-size: cover;
+    height: 688px;
+     
+}
+
+.font{
+    background-color: rgba(74, 13, 128, 0.561);
+    flex-direction: row-reverse;
+}
+
+ul li a{
+   font-size: 20px;
+   font-weight: 100;
+   font-family:Arial, Helvetica, sans-serif ;
+   margin: 10px;
+}
+
+.infoBanner{
+    color: #fff;
+    margin-top: 200px;
+    border:solid 3px rgb(177, 106, 30);
+    width: 30%;
+    border-radius: 5px;
+    text-align: center;
+    padding: 8px;
+    box-shadow: 8 8 8 8  white;
+    height: 30%;
+}
+
+.button button{
+     width:200px;
+     margin: 5px;
+     background-color:rgba(74, 13, 128, 0.561) ;
+     border: solid 2px #C211A1;
+     border-radius: 20px;
+     color: white;
+}
+
+.button button:active{
+    background-color: #C211A1;
+}
